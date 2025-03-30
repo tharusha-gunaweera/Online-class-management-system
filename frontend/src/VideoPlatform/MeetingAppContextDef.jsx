@@ -67,7 +67,7 @@ export const MeetingAppProvider = ({ children }) => {
   return (
     <MeetingAppContext.Provider
       value={{
-        // states
+        
 
         raisedHandsParticipants,
         selectedMic,
@@ -78,7 +78,7 @@ export const MeetingAppProvider = ({ children }) => {
         isCameraPermissionAllowed,
         isMicrophonePermissionAllowed,
 
-        // setters
+        
 
         setRaisedHandsParticipants,
         setSelectedMic,
